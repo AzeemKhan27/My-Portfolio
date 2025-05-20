@@ -17,12 +17,13 @@ export const Skills = () => {
         {resume.skills.map((skill, idx) => (
           <motion.div
             key={idx}
-            className="bg-card p-4 rounded shadow text-center text-sm md:text-base"
+            className="bg-card p-4 rounded shadow text-center text-sm md:text-base flex flex-col items-center"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: idx * 0.05 }}
           >
-            {skill}
+            <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
+            <span>{skill.name}</span>
           </motion.div>
         ))}
       </div>

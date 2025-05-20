@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
+const navLinks = ["Home", "About", "Skills", "Projects", "Resume", "Contact"];
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,10 +31,10 @@ export const Header = () => {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
+          <a href="https://github.com/AzeemKhan27" target="_blank" rel="noreferrer">
             <FaGithub size={22} />
           </a>
-          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/azeem-khan-5a9717171/" target="_blank" rel="noreferrer">
             <FaLinkedin size={22} />
           </a>
         </div>
