@@ -44,7 +44,7 @@ export const Hero = () => {
 
       {/* Image Added Here */}
       <motion.img
-        src="./public/MyImage.jpg"  // apni image ka path yahan daal
+        src="/MyImage.jpg"  // apni image ka path yahan daal
         alt="Azeem Khan"
         className="w-40 h-40 rounded-full mb-6 object-cover shadow-lg"
         initial={{ opacity: 0, scale: 0.8 }}

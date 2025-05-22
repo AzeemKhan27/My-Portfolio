@@ -41,6 +41,7 @@ export const resume = {
     projects: [
       // { name: "Service_Service", link: "https://astriadigital.ai" },
       { name: "Medulance", link: "https://medulance.com" },
+      { name: "Farm Root", link: "https://www.farmrootagritech.com/" },
       { name: "AltLyf Healthcare", link: "https://www.zaubacorp.com/ALTLYF-HEALTHCARE-SERVICES-PRIVATE-LIMITED-U85320TZ2019PTC032945" },
       { name: "Tamimi Market", link: "https://www.tamimimarkets.com/" },
       { name: "Teen Patti Octro 3 Patti Rummy", link: "https://play.google.com/store/apps/details?id=com.octro.teenpatti&hl=pt" },
