@@ -19,7 +19,7 @@ export const About = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        {resume.summary}
+        {resume.about}
       </motion.p>
     </section>
   );

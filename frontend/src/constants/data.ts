@@ -2,7 +2,9 @@ export const resume = {
     name: "Azeem Khan",
     title: "Full Stack Developer",
     summary:
-      "Experienced Full-Stack Developer with 4 years of Node.js backend expertise and ReactJS frontend skills.",
+    "Experienced Full-Stack Developer with 4 years in IT, including 3+ years of backend development using Node.js and 2 years of frontend experience with ReactJS. Known for building scalable, efficient applications and staying updated with modern technologies. Strong believer in teamwork, transparency, and continuous learning.",
+    about:
+    "I'm a dedicated and energetic tech enthusiast with a passion for solving real-world problems using scalable technology. Skilled in using AI tools to enhance development workflows. I thrive in collaborative environments, value transparency in team communication, and am committed to continuous learning and delivering high-quality work.",
     contact: {
       phone: "+91 9897888956",
       current_location: "Bengaluru",
